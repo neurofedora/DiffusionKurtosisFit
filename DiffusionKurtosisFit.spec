@@ -15,7 +15,7 @@ Provides:       dkifit%{?_isa} = %{version}-%{release}
 Provides:       bundled(vxl) = 1.14
 
 BuildRequires:  cmake gcc-c++
-BuildRequires:  InsightToolkit-devel gdcm-devel
+BuildRequires:  InsightToolkit-devel gdcm-devel fftw-devel
 BuildRequires:  vxl-devel
 
 %description
